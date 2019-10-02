@@ -6,6 +6,10 @@
 
   --font-primary: "Montserrat", sans-serif;
   --font-secondary: "EB Garamond", serif;
+  --weight-bold: 700;
+  --weight-medium: 500;
+  --weight-regular: 400;
+  --weight-light: 300;
 }
 
 html {
