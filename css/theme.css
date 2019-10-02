@@ -35,11 +35,34 @@ h4 {
   font-family: var(--font-secondary);
 }
 
+p {
+  font-family: var(--font-secondary);
+}
+
 .btn {
   font-weight: var(--weight-light);
   background-color: none;
+  color: var(--color-primary);
+  border-color: var(--color-primary);
 }
 
 .btn-hover {
+ color: #fff;
+ background-color: var(--color-secondary);
+ border-color: var(--color-accent);
+}
 
+a {
+  color: var(--color-accent);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--color-primary);
+  text-decoration: underline;
+}
+
+mark {
+  background-color: var(--color-secondary);
+  color: var(--color-primary);
 }
