@@ -3,6 +3,8 @@
   --color-primary-light: #BFD1CB;
   --color-secondary: #F8B19E;
   --color-accent: #E9B765;
+  --color-white: #fff;
+  --color-black: #000;
 
   --font-primary: "Montserrat", sans-serif;
   --font-secondary: "EB Garamond", serif;
@@ -17,5 +19,27 @@ html {
 }
 
 h1 {
+  font-family: var(--font-primary);
   font-weight: var(--weight-bold);
+}
+
+h2 {
+  font-weight: var(--weight-regular);
+}
+
+h3 {
+  font-weight: var(--weight-medium);
+}
+
+h4 {
+  font-family: var(--font-secondary);
+}
+
+.btn {
+  font-weight: var(--weight-light);
+  background-color: none;
+}
+
+.btn-hover {
+
 }
