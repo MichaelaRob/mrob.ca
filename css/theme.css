@@ -15,3 +15,7 @@
 html {
   font-family: var(--font-primary);
 }
+
+h1 {
+  font-weight: var(--weight-bold);
+}
