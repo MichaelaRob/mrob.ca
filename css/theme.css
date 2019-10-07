@@ -72,4 +72,10 @@ mark {
 
 ul {
   list-style-type: none;
+  text-decoration: none;
+}
+
+li {
+  list-style-type: none;
+  text-decoration: none;
 }
