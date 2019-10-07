@@ -1,0 +1,25 @@
+title: "Banners"
+description: |
+  Banners should be used as the first main image on each page.
+
+patterns:
+  main-banner:
+    fields:
+      - name: heading
+        type: string
+        example: "Michaela Robinson"
+      - name: text
+        type: string
+        example: "Graphic Designer from Ottawa"
+      - name: image
+        type: string
+        example: ".jpg"
+      - name: button_text
+        type: string
+        example: "Button"
+      - name: button_url
+        type: url
+        example: "//"
+    title: "Main Banner"
+    description: |
+      This type of banner is used on the homepage.

@@ -10,10 +10,10 @@ patterns:
         example: ".jpg"
       - name: button_text
         type: string
-        example: "Rings"
+        example: "Button"
       - name: button_url
         type: url
-        example: "/rings/"
+        example: "//"
     title: "Work Category"
     description: |
       This type of card is used as a link to view a work in more detail.
@@ -24,10 +24,9 @@ patterns:
         example: ".jpg"
       - name: button_text
         type: string
-        example: "Rings"
+        example: "Button"
       - name: button_url
         type: url
-        example: "/rings/"
-    title: "Work Category"
+        example: "//"
     description: |
       This type of card is used as a way to display and image with related text.
