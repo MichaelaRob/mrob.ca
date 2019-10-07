@@ -1,0 +1,33 @@
+title: "Cards"
+description: |
+  Cards should be used to showcase images, call to actions and showcase information.
+
+patterns:
+  photo-card:
+    fields:
+      - name: image
+        type: string
+        example: ".jpg"
+      - name: button_text
+        type: string
+        example: "Rings"
+      - name: button_url
+        type: url
+        example: "/rings/"
+    title: "Work Category"
+    description: |
+      This type of card is used as a link to view a work in more detail.
+  photo-text-card:
+    fields:
+      - name: image
+        type: string
+        example: ".jpg"
+      - name: button_text
+        type: string
+        example: "Rings"
+      - name: button_url
+        type: url
+        example: "/rings/"
+    title: "Work Category"
+    description: |
+      This type of card is used as a way to display and image with related text.

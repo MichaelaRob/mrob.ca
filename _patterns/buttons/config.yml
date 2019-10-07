@@ -28,6 +28,13 @@ patterns:
       The ghost button is specifically for banners, where it will be placed in front of busy images.
     background: "--color-primary-light"
   light:
+    fields:
+      - name: text
+        type: string
+        example: "Click here"
+      - name: url
+        type: url
+        example: "/Click here"
     title: "Light"
     description: |
       The light button is to be used when the background is too dark for the default button and too light for the ghost button.
