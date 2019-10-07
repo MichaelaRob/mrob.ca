@@ -1,0 +1,9 @@
+title: "Footer"
+description: |
+  Footer should be used at the bottom of each page on the website.
+
+patterns:
+  footer:
+    title: "Footer"
+    description: |
+      This footer should be used on each page at the bottom. The purpose of this footer is to have links to social media and other pages on the website.

@@ -69,3 +69,7 @@ mark {
   background-color: var(--color-secondary);
   color: var(--color-primary);
 }
+
+ul {
+  list-style-type: none;
+}
