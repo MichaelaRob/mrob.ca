@@ -56,12 +56,12 @@ p {
 }
 
 a {
-  color: var(--color-accent);
+  color: var(--color-primary);
   text-decoration: none;
 }
 
 a:hover {
-  color: var(--color-primary);
+  color: var(--color-accent);
   text-decoration: none;
 }
 

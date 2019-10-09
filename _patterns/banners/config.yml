@@ -10,7 +10,7 @@ patterns:
         example: "Michaela Robinson"
       - name: text
         type: string
-        example: "Graphic Designer from Ottawa"
+        example: "Graphic Designer from Ottawa, Canada"
       - name: image
         type: string
         example: ".jpg"

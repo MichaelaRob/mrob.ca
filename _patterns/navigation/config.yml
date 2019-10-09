@@ -3,7 +3,7 @@ description: |
   Navigation should be used on all pages.
 
 patterns:
-  main-navigation:
-    title: "Main Navigation"
+  navigation:
+    title: Navigation"
     description: |
       The main navigation should be used at the top of each page to navigate around the website.
