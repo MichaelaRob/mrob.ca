@@ -1,3 +1,8 @@
 .navigation {
   letter-spacing: .3rem;
 }
+
+a:hover {
+  font-weight: bold;
+  transition: all .3s ease;
+}

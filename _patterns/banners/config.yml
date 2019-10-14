@@ -13,7 +13,7 @@ patterns:
         example: "Graphic Designer from Ottawa, Canada"
       - name: image
         type: string
-        example: ".jpg"
+        example: "banner-placeholder-03.jpg"
       - name: button_text
         type: string
         example: "Button"

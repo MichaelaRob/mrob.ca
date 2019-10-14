@@ -6,3 +6,7 @@ li {
   list-style-type: none;
   letter-spacing: .2rem;
 }
+
+a {
+  letter-spacing: .2rem;
+}
