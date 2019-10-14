@@ -6,3 +6,8 @@
   font-weight: bold;
   transition: all .3s ease;
 }
+
+.title {
+  font-weight: bold;
+  color: var(--color-secondary);
+}
