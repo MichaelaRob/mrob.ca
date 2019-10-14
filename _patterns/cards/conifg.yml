@@ -7,7 +7,7 @@ patterns:
     fields:
       - name: image
         type: string
-        example: ".jpg"
+        example: "300x600placeholder.png"
       - name: button_text
         type: string
         example: "Button"
