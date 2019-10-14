@@ -8,12 +8,6 @@ patterns:
       - name: image
         type: string
         example: "300x600placeholder.png"
-      - name: button_text
-        type: string
-        example: "Button"
-      - name: button_url
-        type: url
-        example: "//"
     title: "Work Category"
     description: |
       This type of card is used as a link to view a work in more detail.
