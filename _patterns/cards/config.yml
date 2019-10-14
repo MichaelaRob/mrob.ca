@@ -16,11 +16,5 @@ patterns:
       - name: image
         type: string
         example: "720x720placeholder.jpg"
-      - name: button_text
-        type: string
-        example: "Button"
-      - name: button_url
-        type: url
-        example: "//"
     description: |
       This type of card is used as a way to display and image with related text.
