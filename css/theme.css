@@ -35,7 +35,9 @@ h3 {
 }
 
 h4 {
-  font-family: var(--font-secondary);
+  font-family: var(--font-primary);
+  letter-spacing: .1rem;
+  font-weight: var(--weight-regular);
 }
 
 p {

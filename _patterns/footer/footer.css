@@ -7,16 +7,20 @@ li {
   letter-spacing: .2rem;
 }
 
-a {
+.white {
   letter-spacing: .2rem;
   color: #fff;
 }
 
-a:hover {
+.white:hover {
   color: var(--color-primary);
 }
 
 footer {
   background-color: var(--color-secondary);
   color: #fff;
+}
+
+svg {
+  fill: #fff;
 }
