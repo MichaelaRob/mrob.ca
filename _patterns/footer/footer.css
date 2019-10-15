@@ -9,4 +9,14 @@ li {
 
 a {
   letter-spacing: .2rem;
+  color: #fff;
+}
+
+a:hover {
+  color: var(--color-primary);
+}
+
+footer {
+  background-color: var(--color-secondary);
+  color: #fff;
 }
