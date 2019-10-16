@@ -1,0 +1,9 @@
+title: "Sections"
+description: |
+  Sections should be used for large chunks of information on the same topic. Usually used to showcase a graphic design work.
+
+patterns:
+  work:
+    title: "Work Section"
+    description: |
+      This type of section is used to showcase a design work. This includes a title and text about the work along with photos of the work.

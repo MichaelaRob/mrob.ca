@@ -32,3 +32,16 @@ patterns:
     title: "Image Card"
     description: |
       This card is used specifically for showcasing other images of works. This is a card which only uses an image, no text.
+  reversed-photo-text:
+    fields:
+      - name: image
+        type: string
+        example: "720x720placeholder.jpg"
+      - name: heading
+        type: string
+        example: "Work Title"
+      - name: text
+        type: string
+        example: "Work description"
+    description: |
+      This type of card is used as a way to display an image with related text.
