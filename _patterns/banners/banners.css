@@ -1,0 +1,11 @@
+.banner-heading {
+  display: block;
+}
+
+figcaption {
+  width: 900px;
+}
+
+.subheading {
+  letter-spacing: .1rem;
+}

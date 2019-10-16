@@ -10,3 +10,8 @@
 .line-height {
   line-height: 40px;
 }
+
+.card {
+  display: block;
+  position: relative;
+}

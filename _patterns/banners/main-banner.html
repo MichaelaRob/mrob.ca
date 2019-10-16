@@ -1,14 +1,19 @@
 <figure class="banner relative push-2">
-  <div class="embed embed-4by3">
+
+  <div class="embed embed-3by2">
     <img class="img-flex embed-item" src="/images/{{include.image}}" alt="banner-image">
   </div>
-  <div class="right gutter-2 pad-t-2 absolute pin-center">
-    <h1 class="text-upper">{{include.heading}}</h1>
-    <p>{{include.text}}</p>
-    <div class="push-2">
+
+  <figcaption class="pad-t-2 absolute pin-center">
+    <h1 class="banner-heading text-upper tena center-text">{{include.heading}}</h1>
+
+    <p class="center-text italic subheading giga">{{include.text}}</p>
+
+    <div class="push-2 center-text">
       {% if include.button_url %}
         {% pattern buttons/basic url=include.button_url text=include.button_text %}
       {% endif %}
     </div>
-  </div>
+
+  </figcaption>
 </figure>

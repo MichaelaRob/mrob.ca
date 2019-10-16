@@ -7,10 +7,10 @@ patterns:
     fields:
       - name: heading
         type: string
-        example: "Michaela Robinson"
+        example: "Graphic Designer"
       - name: text
         type: string
-        example: "Graphic Designer from Ottawa, Canada"
+        example: "from Ottawa, Canada"
       - name: image
         type: string
         example: "banner-placeholder-03.jpg"
