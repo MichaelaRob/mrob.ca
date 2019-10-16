@@ -11,7 +11,7 @@
 
 .btn:hover {
   background-color: var(--color-primary);
-  border-color: #fff;
+  border-color: var(--color-primary);
   color: #fff;
 }
 
@@ -23,7 +23,6 @@
 
 .btn-ghost:hover {
   background-color: var(--color-primary);
-  border-color: #fff;
   color: #fff;
 }
 
@@ -35,6 +34,5 @@
 
 .btn-light:hover {
   background-color: var(--color-secondary);
-  border-color: #fff;
   color: #fff;
 }

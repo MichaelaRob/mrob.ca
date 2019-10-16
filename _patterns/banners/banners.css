@@ -1,5 +1,6 @@
 .banner-heading {
   display: block;
+  color: var(--color-primary);
 }
 
 figcaption {
@@ -8,4 +9,5 @@ figcaption {
 
 .subheading {
   letter-spacing: .1rem;
+  color: #fff;
 }
