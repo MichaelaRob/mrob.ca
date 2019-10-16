@@ -9,5 +9,5 @@ figcaption {
 
 .subheading {
   letter-spacing: .1rem;
-  color: #fff;
+  color: var(--color-primary);
 }

@@ -1,10 +1,5 @@
 .card:hover {
-  transition: all .3s ease;
-}
-
-.card-img:hover {
-  filter: blur(5px);
-  transition: .3s ease;
+  filter: blur(7px);
 }
 
 .line-height {
@@ -14,4 +9,5 @@
 .card {
   display: block;
   position: relative;
+  transition: all .3s ease;
 }
