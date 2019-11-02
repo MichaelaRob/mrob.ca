@@ -1,7 +1,7 @@
 <url>
   <loc>http://mrob.ca{{site.baseurl}}{{include.entry.url}}</loc>
   {% if include.entry.changefreq %}
-  <changefreq>{{include.entry.changefreq}}</changefreq>
+    <changefreq>{{include.entry.changefreq}}</changefreq>
   {% endif %}
   <priority>{{include.entry.priority}}</priority>
 </url>
