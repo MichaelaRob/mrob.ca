@@ -1,4 +1,4 @@
-.card:hover {
+.blur-transition:hover {
   filter: blur(7px);
 }
 
