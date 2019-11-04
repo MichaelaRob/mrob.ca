@@ -46,6 +46,9 @@ patterns:
       - name: heading
         type: string
         example: "Work Title"
+      - name: subheading
+        type: string
+        example: "Subheading"
       - name: text
         type: string
         example: "Work description"
