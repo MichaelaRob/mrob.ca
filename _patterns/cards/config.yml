@@ -11,9 +11,6 @@ patterns:
       - name: heading
         type: string
         example: "Title of Work"
-      - name: text
-        type: string
-        example: "Description of Work"
     title: "Work Category"
     description: |
       This type of card is used as a link to view a work in more detail. This card has the title of the work along with a brief description of what it is.
