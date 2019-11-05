@@ -7,3 +7,7 @@ patterns:
     title: "Work Section"
     description: |
       This type of section is used to showcase a design work. This includes a title and text about the work along with photos of the work.
+  packaging-section:
+    title: Packaging Section
+    description: |
+      This type of section is used to insert the packaging category of the portfolio on the portfolio page. This section showcases packaging works that I have completed.
