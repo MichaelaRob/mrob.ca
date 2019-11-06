@@ -15,3 +15,7 @@ figcaption {
 .banner:hover {
 
 }
+
+figcaption {
+  background-color: rgba(92, 145, 145, .6);
+}
