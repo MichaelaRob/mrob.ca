@@ -11,22 +11,24 @@ priority: 1.0
 </div>
 <h2 class="text-upper gutter pad-t-2">Portfolio Pieces</h2>
 <ul class="list-group grid gutter push-2">
-  <li class="unit xs-1 s-1 m-1-2 l-1-4">
-    <a>{% pattern cards/home-work-card image="packaging-mainpage.png" heading="Package Design" url="/#packaging" %}</a>
-  </li>
-  <li class="unit xs-1 s-1 m-1-2 l-1-4">
-    <a href="">
-      {% pattern cards/home-work-card image="placeholder-1.jpg" heading="Isometrics" url="/#packaging" %}
+  <li class="unit xs-1 s-1 m-1-2 l-1-4 {% if page.highlight_nav == 'portfolio' %}current{% endif %}">
+    <a href="/portfolio/#packaging">
+      {% pattern cards/home-work-card image="packaging-mainpage.png" heading="Package Design" %}
     </a>
   </li>
-  <li class="unit xs-1 s-1 m-1-2 l-1-4">
-    <a href="/#packaging">
-      {% pattern cards/home-work-card image="placeholder-1.jpg" heading="Branding" url="/" %}
+  <li class="unit xs-1 s-1 m-1-2 l-1-4 {% if page.highlight_nav == 'portfolio' %}current{% endif %}">
+    <a href="/portfolio/#isometrics">
+      {% pattern cards/home-work-card image="placeholder-1.jpg" heading="Isometrics" %}
     </a>
   </li>
-  <li class="unit xs-1 s-1 m-1-2 l-1-4">
-    <a href="/#packaging">
-      {% pattern cards/home-work-card image="placeholder-1.jpg" heading="Paid Work" url="/" %}
+  <li class="unit xs-1 s-1 m-1-2 l-1-4 {% if page.highlight_nav == 'portfolio' %}current{% endif %}">
+    <a href="/portfolio/#branding">
+      {% pattern cards/home-work-card image="placeholder-1.jpg" heading="Branding" %}
+    </a>
+  </li>
+  <li class="unit xs-1 s-1 m-1-2 l-1-4 {% if page.highlight_nav == 'portfolio' %}current{% endif %}">
+    <a href="/portfolio/#paid">
+      {% pattern cards/home-work-card image="placeholder-1.jpg" heading="Paid Work" %}
     </a>
   </li>
 </ul>
