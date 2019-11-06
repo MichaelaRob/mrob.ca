@@ -1,6 +1,6 @@
 .banner-heading {
   display: block;
-  color: var(--color-primary);
+  color: #fff;
 }
 
 figcaption {
@@ -8,6 +8,10 @@ figcaption {
 }
 
 .subheading {
-  letter-spacing: .1rem;
-  color: var(--color-primary);
+  letter-spacing: .2rem;
+  color: #fff;
+}
+
+.banner:hover {
+
 }
