@@ -1,10 +1,7 @@
-.banner-heading {
-  display: block;
-  color: #fff;
-}
-
-figcaption {
+.displayonhover {
   width: 900px;
+  background-color: rgba(92, 145, 145, .6);
+  display: none;
 }
 
 .subheading {
@@ -12,10 +9,11 @@ figcaption {
   color: #fff;
 }
 
-.banner:hover {
-
+.banner-heading {
+  color: #fff;
 }
 
-figcaption {
-  background-color: rgba(92, 145, 145, .6);
+.banner:hover .displayonhover {
+  display: block;
+  transition: all .5s ease;
 }
