@@ -51,3 +51,9 @@ patterns:
         example: "Work description"
     description: |
       This type of card is used as a way to display an image with related text.
+  image:
+    - name: image
+      type: string
+      example: "720x720placeholder.jpg"
+    description: |
+      This type of card is used when inserting an image to facilitate and shrink down the code needed.
