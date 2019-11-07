@@ -23,3 +23,11 @@ patterns:
     title: "Main Banner"
     description: |
       This type of banner is used as the first element on each page after the navigation.
+  portfolio-banner:
+    fields:
+      - name: image
+        type: string
+        example: "main-banner.jpg"
+    title: "Portfolio Banner"
+    description: |
+      This type of banner is used as the first image for each individual portfolio piece. This image is showcasing the best image of the portfolio piece and is used to grab the viewer's attention.
