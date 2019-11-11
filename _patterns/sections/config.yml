@@ -10,4 +10,4 @@ patterns:
   packaging-section:
     title: Packaging Section
     description: |
-      This type of section is used to insert the packaging category of the portfolio on the portfolio page. This section showcases packaging works that I have completed.
+      This type of section is used to insert the packaging category of the portfolio on the portfolio page. This section showcases packaging works that I have completed and helps to reduce the amount of code needed on the portfolio page.

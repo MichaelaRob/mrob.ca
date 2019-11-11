@@ -56,4 +56,4 @@ patterns:
       type: string
       example: "720x720placeholder.jpg"
     description: |
-      This type of card is used when inserting an image to facilitate and shrink down the code needed.
+      This type of card is used when inserting a square image to facilitate and shrink down the code needed.

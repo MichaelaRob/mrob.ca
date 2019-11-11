@@ -30,4 +30,4 @@ patterns:
         example: "main-banner.jpg"
     title: "Portfolio Banner"
     description: |
-      This type of banner is used as the first image for each individual portfolio piece. This image is showcasing the best image of the portfolio piece and is used to grab the viewer's attention.
+      This type of banner is used as the first image for each individual portfolio piece. This image is showcasing the best image of the portfolio piece and is used to grab the viewer's attention. This banner is used when there is no text to be used on a banner, only the image.
