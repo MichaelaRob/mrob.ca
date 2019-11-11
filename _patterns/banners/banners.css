@@ -1,9 +1,3 @@
-.displayonhover {
-  width: 900px;
-  background-color: rgba(92, 145, 145, .6);
-  display: none;
-}
-
 .subheading {
   letter-spacing: .2rem;
   color: #fff;
@@ -16,4 +10,10 @@
 .banner:hover .displayonhover {
   display: block;
   transition: all .5s ease;
+}
+
+.displayonhover {
+  width: 900px;
+  background-color: rgba(92, 145, 145, .6);
+  display: none;
 }
