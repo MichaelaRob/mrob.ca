@@ -6,9 +6,12 @@ meta: Ottawa based Graphic designer specialising in branding, package design and
 priority: 1.0
 ---
 
-<div class="push-2" id="main">
-{% pattern banners/main-banner heading="Graphic Designer" text="& Fine artist from Ottawa, Canada" image="banner.jpg" button_text="Contact me" button_url="mailto:michaela.robinson178@gmail.com" %}
-</div>
+<header role="banner">
+  <div class="push-2">
+    {% pattern banners/main-banner heading="Graphic Designer" text="& Fine artist from Ottawa, Canada" image="banner.jpg" button_text="Contact me" button_url="mailto:michaela.robinson178@gmail.com" %}
+  </div>
+</header>
+<main role="main" id="main">
 <h2 class="text-upper gutter pad-t-2 portfolio-h bold push-0">Portfolio Pieces</h2>
 <h3 class="gutter portfolio-sub italic push-2">My design work</h3>
 <ul class="list-group grid gutter push-2">
@@ -28,7 +31,7 @@ priority: 1.0
     </a>
   </li>
   <li class="unit xs-1 s-1 m-1-2 l-1-4 {% if page.highlight_nav == 'portfolio' %}current{% endif %}">
-    <a href="/portfolio/#paid">
+    <a href="/portfolio/#paid-work">
       {% pattern cards/home-work-card image="home-pc.jpg" heading="Paid Work" %}
     </a>
   </li>
