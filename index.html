@@ -6,36 +6,34 @@ meta: Ottawa based Graphic designer specialising in branding, package design and
 priority: 1.0
 ---
 
-<header role="banner" tabindex="0">
+<header role="banner">
   <div class="push-2">
     {% pattern banners/main-banner heading="Graphic Designer" text="& Fine artist from Ottawa, Canada" image="banner.jpg" button_text="Contact me" button_url="mailto:michaela.robinson178@gmail.com" %}
   </div>
 </header>
-<main role="main" id="main" tabindex="0">
+<main role="main" id="main">
 <h2 class="text-upper gutter pad-t-2 portfolio-h bold push-0">Portfolio Pieces</h2>
 <h3 class="gutter portfolio-sub italic push-2">My design work</h3>
 <ul class="list-group grid gutter push-2">
-  <li class="unit xs-1 s-1 m-1-2 l-1-4 {% if page.highlight_nav == 'portfolio' %}current{% endif %}" tabindex="0">
-    <a href="/portfolio/#packaging">
-      {% pattern cards/home-work-card image="home-gp.jpg" heading="Golden Palace project" %}
-    </a>
+  <li class="unit xs-1 s-1 m-1-2 l-1-4 {% if page.highlight_nav == 'portfolio' %}current{% endif %}">
+      {% pattern cards/home-work-card image="home-gp.jpg" heading="Golden Palace project" href="/portfolio/#packaging" %}
   </li>
-  <li class="unit xs-1 s-1 m-1-2 l-1-4 {% if page.highlight_nav == 'portfolio' %}current{% endif %}" tabindex="0">
+  <li class="unit xs-1 s-1 m-1-2 l-1-4 {% if page.highlight_nav == 'portfolio' %}current{% endif %}">
     <a href="/portfolio/#hbo">
       {% pattern cards/home-work-card image="home-hbo.jpg" heading="Package Redesign" %}
     </a>
   </li>
-  <li class="unit xs-1 s-1 m-1-2 l-1-4 {% if page.highlight_nav == 'portfolio' %}current{% endif %}" tabindex="0">
+  <li class="unit xs-1 s-1 m-1-2 l-1-4 {% if page.highlight_nav == 'portfolio' %}current{% endif %}">
     <a href="/portfolio/#branding">
       {% pattern cards/home-work-card image="home-hs.jpg" heading="Branding" %}
     </a>
   </li>
-  <li class="unit xs-1 s-1 m-1-2 l-1-4 {% if page.highlight_nav == 'portfolio' %}current{% endif %}" tabindex="0">
+  <li class="unit xs-1 s-1 m-1-2 l-1-4 {% if page.highlight_nav == 'portfolio' %}current{% endif %}">
     <a href="/portfolio/#paid-work">
       {% pattern cards/home-work-card image="home-pc.jpg" heading="Paid Work" %}
     </a>
   </li>
 </ul>
-<section class="pad-t-2 gutter-2 push" id="about" tabindex="0">
+<section class="pad-t-2 gutter-2 push" id="about">
   {% pattern cards/photo-text-card image="about-me.jpg" heading="About me" text="I'm a graphic designer from Ottawa, Canada. I’m terrible at math. Early on, I knew I would never be someone who works with numbers, but I was promised there’s no way to make a living being creative. I made a promise to myself to love what I do for a living. Design for me, is a way of life, full of colour. I started my education using paint, brushes and pencils and ended with a computer and a mouse, proving that I can in fact have a career from being creative and I can just google my math problems." %}
 </section>

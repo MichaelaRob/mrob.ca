@@ -37,6 +37,7 @@
   background-color: var(--color-primary);
 }
 
-.card:hover .overlay {
+.card:hover .overlay,
+.card:focus .overlay {
   opacity: 1;
 }
