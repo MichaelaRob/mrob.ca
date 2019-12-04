@@ -15,3 +15,7 @@
 .error-page {
   background-color: var(--color-primary);
 }
+
+.yellow {
+  color: var(--color-accent);
+}
