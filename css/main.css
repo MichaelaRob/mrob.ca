@@ -11,3 +11,7 @@
 .portfolio-sub {
   font-family: var(--font-secondary);
 }
+
+.error-page {
+  background-color: var(--color-primary);
+}
