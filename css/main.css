@@ -19,3 +19,8 @@
 .yellow {
   color: var(--color-accent);
 }
+
+.sub{
+  letter-spacing: .1rem;
+  color: #fff;
+}
