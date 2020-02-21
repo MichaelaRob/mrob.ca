@@ -22,7 +22,7 @@
   position: relative;
 }
 
-.embed__item {
+.embed-item {
   position: absolute;
   left: 0;
   width: 100%;
@@ -30,6 +30,6 @@
   top: 0;
 }
 
-.embed--16by9 {
+.embed-16by9 {
   padding-top: 56.25%;
 }
