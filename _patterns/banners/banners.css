@@ -17,3 +17,19 @@
   background-color: rgba(92, 145, 145, .6);
   display: none;
 }
+
+.embed-video {
+  position: relative;
+}
+
+.embed__item {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  top: 0;
+}
+
+.embed--16by9 {
+  padding-top: 56.25%;
+}
