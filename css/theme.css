@@ -6,7 +6,7 @@
   --color-white: #fff;
   --color-black: #000;
 
-  --font-primary: "Montserrat", sans-serif;
+  --font-primary: "Raleway", sans-serif;
   --font-secondary: "EB Garamond", serif;
   --weight-bold: 700;
   --weight-medium: 500;
@@ -41,7 +41,7 @@ h4 {
 }
 
 p {
-  font-family: var(--font-secondary);
+  font-family: var(--font-primary);
 }
 
 .btn {
