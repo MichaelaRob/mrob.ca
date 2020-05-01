@@ -13,11 +13,11 @@ li {
 }
 
 .white:hover {
-  color: var(--color-primary);
+  color: var(--color-secondary);
 }
 
 footer {
-  background-color: var(--color-secondary);
+  background-color: var(--color-primary);
   color: #fff;
 }
 
